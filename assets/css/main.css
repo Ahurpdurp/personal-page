@@ -1793,8 +1793,15 @@ input, select, textarea {
 
 	#nav {
 		text-align: center;
-		height: 4.25em;
 		cursor: default;
+		position:fixed;
+		background-color:rgba(235, 252, 255, 0.726);
+		top:0;
+		padding-top:.3em;
+		height:3em;
+		z-index:3;
+		width:100%;
+
 	}
 
 		#nav a {
@@ -1843,7 +1850,7 @@ input, select, textarea {
 				position: absolute;
 				background: #222222;
 				color: #ffffff;
-				top: -2.75em;
+				top: 3.5em;
 				font-size: 0.3em;
 				height: 2.25em;
 				line-height: 2.25em;
@@ -1864,7 +1871,6 @@ input, select, textarea {
 					bottom: -0.4em;
 					left: 50%;
 					margin-left: -0.6em;
-					border-top: solid 0.6em #222222;
 					border-left: solid 0.6em transparent;
 					border-right: solid 0.6em transparent;
 				}
@@ -1882,7 +1888,7 @@ input, select, textarea {
 			}
 
 				#nav a.active:after {
-					border-bottom-width: 0.5em;
+					/* border-bottom-width: 0.5em; */
 				}
 
 		@media screen and (max-width: 980px) {
@@ -1966,6 +1972,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
+		margin-top:3em;
 		position: relative;
 		overflow: hidden;
 		width: 100%;
