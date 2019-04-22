@@ -1787,6 +1787,7 @@ input, select, textarea {
 #contact-icons {
 	display:flex;
 	justify-content: center;
+	padding-left:2.5em;
 }
 
 /* Nav */
